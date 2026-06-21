@@ -38,7 +38,7 @@ sudo pacman -S ffmpeg zenity python
 
 ```
 
-> [!NOTE]
+> [!IMPORTANT]
 > * **DaVinci Resolve Studio:** Blackmagic Design limits external Python scripting execution to the **Studio (paid)** version on Linux. (Typically installed via the AUR as `davinci-resolve-studio`).
 > * **System GUI File Choosers:** The script dynamically checks for `zenity` or `kdialog` to open file/folder dialogs safely without blocking or crashing Resolve's interface thread.
 > 
@@ -64,13 +64,14 @@ cp *.py ~/.local/share/DaVinciResolve/Fusion/Scripts/Utility/
 2. Navigate to the top menu: **Workspace > Scripts**.
 3. Select your script to execute it.
 
-### 3. (Optional) Assign Keyboard Shortcuts
-
-To speed up your workflow, you can map these scripts to keyboard shortcuts:
-
-1. Go to **DaVinci Resolve > Keyboard Customization**.
-2. Search for the name of your script (under the *Application > Workspace > Scripts* category).
-3. Assign your preferred shortcut key bind.
+> [!TIP]
+> ### 3. (Optional) Assign Keyboard Shortcuts
+>
+> To speed up your workflow, you can map these scripts to keyboard shortcuts:
+>
+> 1. Go to **DaVinci Resolve > Keyboard Customization**.
+> 2. Search for the name of your script (under the *Application > Workspace > Scripts* category).
+> 3. Assign your preferred shortcut key bind.
 
 ---
 
