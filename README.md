@@ -10,7 +10,7 @@ A pair of automation scripts for **DaVinci Resolve Studio on Linux** that fixes 
 
 Instead of dealing with separate tracks or fragile GUI automation, these scripts pre-process your media files instantly using FFmpeg. They clone the video stream exactly (zero quality loss, lightning-fast) and transcode the audio to lossless **FLAC**, then inject the unified clips directly into your open Resolve project.
 
-https://github.com/user-attachments/assets/0291f1cd-ee2f-4f78-a0e4-82745294cd72
+https://github.com/user-attachments/assets/032bd35b-9f69-4b98-a275-6b8244826681
 
 ## Features
 
