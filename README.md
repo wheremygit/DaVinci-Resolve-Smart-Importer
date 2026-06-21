@@ -1,7 +1,10 @@
 # DaVinci Resolve Smart Importer for Linux
 
 > [!NOTE]
-> These scripts were inspired by [Andrew Shark's Resolve Scripts](https://gitlab.com/AndrewShark/davinci-resolve-scripts). I don't know any code nor I am a dev thus these scripts were generated using an LLM. Use at your own risk.
+> These scripts were inspired by [Andrew Shark's Resolve Scripts](https://gitlab.com/AndrewShark/davinci-resolve-scripts).
+
+> [!CAUTION]
+> I don't know any code nor I am a dev thus these scripts were generated using an LLM. Use at your own risk.
 
 A pair of automation scripts for **DaVinci Resolve Studio on Linux** that fixes the infamous "silent AAC audio" issue on import as well integrates with your DE's file picker offerring seemless media importing on the Linux Desktop until [Blackmagic Fixes it themseleves](https://forum.blackmagicdesign.com/viewtopic.php?f=33&t=149142).
 
@@ -71,8 +74,9 @@ To speed up your workflow, you can map these scripts to keyboard shortcuts:
 
 ---
 
-## Environment & Testing
-
-* **Tested OS:** Arch Linux (KDE Plasma)
-* **Tested Application:** DaVinci Resolve Studio 21
-* **Dependencies Checked:** FFmpeg, KDialog, Python 3.11+
+> [!WARNING]
+> ## Environment & Testing
+>
+> * **Tested OS:** Arch Linux (KDE Plasma)
+> * **Tested Application:** DaVinci Resolve Studio 21
+> * **Dependencies Checked:** FFmpeg, KDialog, Python 3.11+
