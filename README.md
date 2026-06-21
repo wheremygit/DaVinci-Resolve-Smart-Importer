@@ -10,11 +10,7 @@ A pair of automation scripts for **DaVinci Resolve Studio on Linux** that fixes 
 
 Instead of dealing with separate tracks or fragile GUI automation, these scripts pre-process your media files instantly using FFmpeg. They clone the video stream exactly (zero quality loss, lightning-fast) and transcode the audio to lossless **FLAC**, then inject the unified clips directly into your open Resolve project.
 
-
-
 https://github.com/user-attachments/assets/c653196b-80b6-43c2-9d0c-ba76d38f16ca
-
-
 
 ## Features
 
@@ -45,10 +41,8 @@ sudo pacman -S ffmpeg zenity python
 ```
 
 > [!IMPORTANT]
-> * **DaVinci Resolve Studio:** Blackmagic Design limits external Python scripting execution to the **Studio (paid)** version on Linux. (Typically installed via the AUR as `davinci-resolve-studio`).
+> * **DaVinci Resolve Studio:** Blackmagic Design limits external Python scripting execution to the **Studio (paid)** version on Linux.
 > * **System GUI File Choosers:** The script dynamically checks for `zenity` or `kdialog` to open file/folder dialogs safely without blocking or crashing Resolve's interface thread.
-> 
-> 
 
 ---
 
